@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  oidcserv:
+    build: ./oidcServ
+    environment:
+      - HOSTNAME=${HOSTNAME}
+      - PORT=${OIDC_PORT}
+      - FRONT_END_PORT=${FRONT_END_PORT}
+      - API_PORT=${API_PORT}
+    ports:
+      - ${OIDC_PORT}:${OIDC_PORT}
+  api:
+    build: ./api
+    environment:
+      - Urls=http://0.0.0.0:${API_PORT}
+      - AllowedOrigins__0=http://${HOSTNAME}:${FRONT_END_PORT}
+      - JwtSettings__Authority=http://oidcserv:${OIDC_PORT}
+      - JwtSettings__Audience=http://${HOSTNAME}:${OIDC_PORT}
+      - JwtSettings__ClaimsIssuer=http://${HOSTNAME}:${OIDC_PORT}
+    ports:
+      - ${API_PORT}:${API_PORT}
+  front-end:
+    build:
+      context: ./front-end
+      args:
+        - REACT_APP_HOSTNAME=${HOSTNAME}
+        - REACT_APP_OIDC_PORT=${OIDC_PORT}
+        - REACT_APP_FRONT_END_PORT=${FRONT_END_PORT}
+        - REACT_APP_API_PORT=${API_PORT}
+    ports:
+      - ${FRONT_END_PORT}:80
+    

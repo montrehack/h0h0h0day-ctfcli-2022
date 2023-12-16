@@ -1,0 +1,11 @@
+.List {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.List ul {
+    list-style-position: inside;
+    text-align: left;
+}

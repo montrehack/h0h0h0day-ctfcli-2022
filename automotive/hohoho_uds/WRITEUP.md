@@ -1,0 +1,1 @@
+The trick here is to connect with Diagnostics over IP (DOIP) and use UDS on top of that. Scan first for supported UDS services and notice that Read Data By Identifier is supported. Then enumerate all supported identifiers for RDBI; the low IDs give hints that the real identifier is 'leet' i.e. 0x1337. Then RDBI of 0x1337 gives the flag.

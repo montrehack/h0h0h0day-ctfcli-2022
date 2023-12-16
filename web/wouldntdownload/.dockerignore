@@ -1,0 +1,6 @@
+.git
+.gitignore
+__tests__
+node_modules
+npm-debug.log
+*.md

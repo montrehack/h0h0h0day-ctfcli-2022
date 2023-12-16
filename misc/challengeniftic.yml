@@ -1,0 +1,19 @@
+name: "Giftcode"
+author: "niftic"
+category: misc
+description: They say Christmas is all about giving
+value: 100
+type: standard
+
+connection_info: nc niftic.ca 4444
+
+flags:
+    - FLAG{N0w_7hatz_a_c001_9ift!}
+
+tags:
+    - python
+
+files:
+    - giftcode.zip
+
+version: "0.1"

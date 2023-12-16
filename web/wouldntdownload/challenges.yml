@@ -1,0 +1,24 @@
+name: "you-wouldnt-download-a-car"
+author: "hellnia"
+category: web
+description: |
+  You wake up in a dark room with an open laptop on a table.
+  There are two pieces of code printed, pinned to a whiteboard next to you.
+  You hear what seems to be Santa's elves crying while Elon Musk ask them why they didn't contribute more via speakers.
+  The only way to get out is to get the admin's flag.
+value: 100
+type: standard
+connection_info: http://challenges.montrehack.ca:12380/
+
+image: .
+
+flags:
+    - FLAG{Y0u_W0uldnt_Mem0ize_A_Car}
+
+tags:
+    - appsec
+    - web
+
+files:
+    - images/startup_script.png
+    - images/get_data.png

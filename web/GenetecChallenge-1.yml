@@ -1,0 +1,17 @@
+name: "Genetec Challenge 2022 (1/2)"
+author: "Genetec"
+category: web
+description: "Some single web page app might expose debugging information publicly."
+value: 100
+type: standard
+connection_info: https://h0h0h0day-genetec2022.eastus.cloudapp.azure.com/
+
+flags:
+    - FLAG-M4P_JS_M19H7_C0N741N_US3FUL_1NF0RM4710N
+
+tags:
+    - web
+    - azure
+
+state: visible
+version: "0.1"

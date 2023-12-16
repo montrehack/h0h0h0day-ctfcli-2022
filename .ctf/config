@@ -1,0 +1,24 @@
+[config]
+url = https://h0h0h0day.montrehack.ca/
+access_token = 6498a664dcae35d9d48be7c9d32334a88eda916f457a441b8440c560b041ff50
+
+[challenges]
+reverse/no_reverse = reverse/no_reverse
+crypto/surprise/ = crypto/surprise/
+pwn/tintagel/ = pwn/tintagel/
+reverse/crok/ = reverse/crok/
+automotive/hohoho_uds/ = automotive/hohoho_uds/
+network/aquaviena/ = network/aquaviena/
+shell/behaviors-we-love/ = shell/behaviors-we-love/
+web/ = web/
+misc/ = misc/
+web/openid-portal/ = web/openid-portal/
+misc/schrodinger/ = misc/schrodinger/
+web/submission_sideni/ = web/submission_sideni/
+reverse/g0Crypt/ = reverse/g0Crypt/
+web/wouldntdownload/ = web/wouldntdownload/
+forensics/vinnie/ = forensics/vinnie/
+misc/factory/ = misc/factory/
+web/GenetecChallenge-2.yml = web/GenetecChallenge-2.yml
+reverse/weirdPython/ = reverse/weirdPython/
+

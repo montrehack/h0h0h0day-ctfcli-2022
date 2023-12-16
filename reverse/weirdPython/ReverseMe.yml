@@ -1,0 +1,11 @@
+name: WeirdPython
+author: "Erreur-404"
+category: reverse
+description: My friend showed me this Python programme that takes a single parameter and tells you wether it's the intended flag or not. He told me that if I could understand it and find the parameter, then I would finally reach his level! The problem is that I don't understand Python... Can you help me?
+value: 100
+
+flags:
+      - FLAG{n0w_th4t5_r3v3rs1ng!}
+
+files:
+      - flag.py

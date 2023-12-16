@@ -1,0 +1,28 @@
+name: "On the 1st day of Christmas"
+author: "Sideni"
+category: web
+description: |
+    My true love sent to me ?
+
+value: 200
+type: standard
+
+image: null
+host: null
+
+connection_info: http://sideni.xyz:8888/
+
+files:
+    - index.php
+    - lyrics.php
+
+flags:
+    - flag-flaggy_flagging
+
+tags:
+    - web
+    - bash
+
+state: visible
+
+version: "0.1"

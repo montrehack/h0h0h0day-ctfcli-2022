@@ -1,0 +1,39 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Aquaviena"
+author: "Émilio Gonzalez (res260)"
+category: Network Forensics
+description: You work for Evien, a compagny that sells water bottles. Your main competitor, Aquaviena, has recently launched a new "life-flavoured" water bottle. This life flavour forever changed the water-bottle industry, made Aquaviena the king of the market and made Evien's sales tank. Nobody outside Aquaviena knows how this flavour works, but it gives people an temporary, unconditional will to live and be happy. Recently, an Aquaviena employee sent Evien a pcap file that, according to the anonymous source, reveals the secret of the life-flavoured water. The packets would come from a subnet in Aquaviena's internal network. Analyse this packet capture file to unveil the secret of Aquaviena. Your first task consist in identifying the plan of Aquaviena in case they get sued regarding their life-flavoured water. Flag format --> FLAG-.+
+value: 100
+type: standard
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - FL4G-OkThisOneWasReallyEasyNowSharpenYourWiresharkFilteringSkills
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - forensics
+    - network
+    - wireshark
+
+# Provide paths to files from the same directory that this file is in
+# Accepts strings
+files:
+    - aquaviena.pcap
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

@@ -1,0 +1,30 @@
+name: "On the 2nd day of Christmas"
+author: "Sideni"
+category: web
+description: |
+    My true love sent to me,
+    Two turtledoves
+    And a shell in a pear tree
+
+value: 400
+type: standard
+
+image: null
+host: null
+
+connection_info: http://sideni.xyz:8888/
+
+files:
+    - index.php
+    - lyrics.php
+
+flags:
+    - flag-and_a_partridge_in_a_peeeeeeeeeaaaar_treeeeeeeeee
+
+tags:
+    - web
+    - bash
+
+state: visible
+
+version: "0.1"

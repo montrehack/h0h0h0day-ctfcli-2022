@@ -1,0 +1,22 @@
+name: "H0penId portal"
+author: "gdenhez"
+category: web
+description: |
+  A bad elf badmouths Montrehack people and press Santa to put them to the naughty list! Fortunately, the developper Santa hired to code the portal to manage gifts tends to overlook obvious security aspects. Can you see the gift Santa was planning to send you?
+
+  * user: guest
+  * pass: guest
+
+connection_info: http://challenges.montrehack.ca:44030/
+
+value: 100
+type: standard
+
+flags:
+    - FLAG-c821bdcf1cd786e56c518c355a97d309
+
+tags:
+    - web
+    - openid
+
+version: "0.1"

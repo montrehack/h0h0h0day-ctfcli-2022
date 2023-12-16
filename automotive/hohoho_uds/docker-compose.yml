@@ -1,0 +1,9 @@
+version: "3"
+services:
+  python:
+    build: .
+    ports:
+        - "13400-13430:13400"
+    deploy:
+      mode: replicated
+      replicas: 30

@@ -1,0 +1,26 @@
+name: "(Almost) no reverse required"
+author: "nic-lovin"
+category: reverse
+description: |
+    SSSSSSSanta told me there's a function that will give me a flag if I call it with `Santa, pls, flag`... or `galf ,slp ,flag`?
+
+value: 200
+type: standard
+
+image: null
+host: null
+
+
+files:
+    - no_reverse.exe
+
+flags:
+    - FLAG-ad51ec505f
+
+tags:
+    - reverse
+    - windows
+
+state: visible
+
+version: "0.1"

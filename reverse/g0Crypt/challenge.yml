@@ -1,0 +1,10 @@
+name: "g0Crypt"
+author: "svieg"
+category: reverse
+description: We got attacked by ransomware but we need our files to finish our projects before the holidays! In the spirit of Christmas, the ransomware group provided a program to get the key but it will only work on the day of Christmas. Please help us!
+value: 100
+type: standard
+flags:
+  - FLAG-g0g0g0DGA
+files:
+  - dist.zip

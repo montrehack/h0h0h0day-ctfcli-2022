@@ -1,0 +1,5 @@
+#!/bin/sh
+dir=$1
+cd "$dir"
+shift
+$@ 2>&1 | faketime '2022-12-25' ts "%b %d %H:%M:%.S"

@@ -1,0 +1,6 @@
+version: '3'
+services:
+  factory:
+    build: .
+    ports:
+    - "2222:22"

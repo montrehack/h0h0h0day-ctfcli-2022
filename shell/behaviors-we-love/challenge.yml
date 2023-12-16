@@ -1,0 +1,24 @@
+# challenge.yml
+name: "Behaviors we love!"
+author: fob
+category: shell
+description: |
+  Santa wants to know if you've been naughty or nice. Can you
+  put yourself on the nice list to get your gift?
+
+  `nc 198.199.67.67 1337`
+
+value: 200
+type: standard
+image: null
+flags:
+  - 'FLAG-4758c95929c9a63f76a6623811d2ac89'
+hints:
+  - https://localhost.run/ might be useful.
+  - Did you know? Santa has beautiful, white, curly hairs.
+  - Did you know? Santa travels the whole globe in a single night.
+tags:
+  - shell
+  - iot
+state: visible
+version: '0.1'

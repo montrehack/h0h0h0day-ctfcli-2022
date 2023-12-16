@@ -1,0 +1,39 @@
+# Required sections
+name: "Fête de l'hiver"
+author: "Klammydia and privat"
+category: pwn
+description: |
+    Vous êtes invités à la grande fête de l'hiver.
+value: 200
+type: standard
+image: .
+
+connection_info: nc challenges.montrehack.ca 3333
+
+
+flags:
+    - h0h0h0{Maintenant_ca_suffit!_Vous_irez_a_la_fete,_et_vous_ferez_un_bisou_a_Tati}
+
+# Tags are used to classify your challenge with topics. You should provide at
+# least one.
+# Can be removed if unused
+# Accepts strings
+tags:
+    - pwn
+
+# Provide paths to files from the same directory that this file is in
+files:
+    - Dockerfile
+    - tintagel
+
+hints:
+    - Allez vous gratter.
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
+

@@ -1,0 +1,28 @@
+name: "input(factory)"
+author: "dig2root"
+category: misc
+description: Welcome to Santa's factory ! As a spy your goal is to enter the factory and bring all Santa's secrets with you ! Password is `factory-input`
+value: 200
+type: standard
+
+connection_info: ssh h0h0spy@challenges.montrehack.ca -p 2222
+
+flags:
+    - "8096141458209635438591357451221347670371481"
+
+tags:
+    - app-script
+    - python
+
+hints:
+    - {
+        content: "'stdout' function allows you to display data in the shell.",
+        cost: 50
+    }
+    - {
+        content: "'input' function in Python2.X is not the same as the Python3.X one !",
+        cost: 10
+    }
+    - What's the python version ?
+
+version: "0.1"

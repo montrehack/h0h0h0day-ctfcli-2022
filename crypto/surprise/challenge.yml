@@ -1,0 +1,55 @@
+name: "Surprise à Laponie beach"
+author: "Ioarana (Gabriel Landeau)"
+category: cryptographie
+description: |
+    Cette année Mère noël a décidé de la jouer mystérieuse. Tandis que son mari prépare la nuit de distribution avec ses lutins, elle a décidé de rendre sa tâche - équipper les troupes - un peu plus amusante. 
+    
+    Ce matin, le Père noël a reçu un colis en PingEx prioritaire, avec sur la boite marqué "Équipements rennes". En déballant le tout, quelque chose l'intrigue et il se rend vite compte que quelque chose cloche: les noms sur les chapeaux ne sont pas les bons ! Comment savoir pour qui est quoi ? 
+    
+    N'étant pas un mari très inspiré, il décide de faire appel à la détective privée la plus réputée de la banquise, Whitebear Holmes - vous. 
+    
+    Commencez par aider le père noël à distribuer les chapeaux de noël à ses rennes, peut-être que ça vous aidera à y voir plus clair sur les intentions de mère noël !
+    
+    Lors de votre enquête vous demandez au père noël si vous devriez connaître des choses sur la mère noël, notamment ses habitudes bizarres. Apparemment, les seules choses qui lui viennent en tête sont qu'elle s'arrête systématiquement à la page de garde d'un livre, et qu'elle inverse toujours ses chaussettes. Ca ne semble pas vous aider ..
+    
+    Enfin, vous remarquez sur l'étiquette des tuques "RC2 made in Cyberchelfe & Co" ~ "Ouuuuuh, mon pire concurrent! Comment a-t-elle pu faire appel à ces escrocs ?" - le père noël s'exclame
+    
+    Une fois toutes les tuques sorti du carton, vous trouvez une carte posée au fond, avec comme seule inscription "d2ab0c896a6ba8c8217a285727e938c3c5ecad80ec3d2c49 - love you"
+    
+    Arriverez-vous à sauver le père noël et deviner ce que la mère noël attend pour sa fin d'année ?
+    
+    - Liste des rennes employés par l'usine de jouets
+    Phineace
+    Garfield
+    Bonny
+    Terrance
+    Jerry
+    Leila
+    Bruce
+    Rick
+    
+    - Liste des noms marqués sur les tuques
+    
+    Luke
+    Philippe
+    Robin
+    Odie
+    Morty
+    Ferb
+    Tom
+    Clide
+
+value: 200
+type: standard
+
+flags:
+    - flag{m4m4w4ntsh3rd4ddy}
+
+tags:
+    - crypto
+
+hints:
+    - As-tu essayé d'aller voir les concurrents sur Cyberchef ? 
+
+state: visible
+version: "0.1"

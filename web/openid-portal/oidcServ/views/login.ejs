@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/interaction/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="App">
+        <form autocomplete="off" action="/interaction/<%= uid %>/login" method="post">
+            <input required type="text" name="login" placeholder="Enter login" autofocus="on">
+            <input required type="password" name="password" placeholder="and password">
+
+            <span>
+                <%= msg %>
+            </span>
+            <button type="submit" class="login login-submit">Sign-in</button>
+        </form>
+    </div>
+</body>
+
+</html>

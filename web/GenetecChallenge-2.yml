@@ -1,0 +1,20 @@
+name: "Genetec Challenge 2022 (2/2)"
+author: "Genetec"
+category: web
+description: "Some cloud providers have an interesting internal API.\nImportant: You won't be able to use the normal authentication flow. You need to find an alternative."
+value: 300
+type: standard
+connection_info: https://h0h0h0day-genetec2022.eastus.cloudapp.azure.com/
+
+flags:
+    - FLAG-M4N493D_S3RV1C3_1D3N717Y_1S_N07_8ULL37PR00F
+
+requirements:
+    - "Genetec Challenge 2022 (1/2)"
+
+tags:
+    - web
+    - azure
+
+state: visible
+version: "0.1"

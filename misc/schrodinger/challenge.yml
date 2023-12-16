@@ -1,0 +1,26 @@
+# Required sections
+name: "Schrödinger's binary"
+author: "Alexandre Letourneau"
+category: misc
+description: Figure out this 'binary' file
+value: 100
+type: standard
+
+# Optional settings
+
+flags:
+    - flag{1212patatepouelle}
+
+tags:
+    - Misc
+
+files:
+    - schrodinger.bin
+
+hints:
+    - {
+        content: "Funny how 1s and 0s look like dots and dashes",
+        cost: 10
+    }
+
+version: "0.1"

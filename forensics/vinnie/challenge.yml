@@ -1,0 +1,30 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Blackmail"
+author: "KptCheeseWhiz"
+category: forensics
+description: I managed to clone Santa's USB key which contains all his darkest secrets. I could use it to blackmail him to finally get out of the naughty list, but it is encrypted with something called BitLocker, can you help me open it? I have the recovery key file, but it is corrupted and unreadable, maybe you will be able to do something with it?
+value: 100
+type: standard
+
+flags:
+    - FLAG-d39c8b27285ac65312ba1f476ac5cd89
+
+topics:
+    - bitlocker
+    - encryption
+
+tags:
+    - forensics 
+
+files:
+    - "BitLocker Recovery Key D6172CB7-6A8B-4EBE-B64F-D94796554C88.TXT"
+    - "Clé de récupération BitLocker D6172CB7-6A8B-4EBE-B64F-D94796554C88.TXT"
+    # you must download that file from here for this to work: https://www.dropbox.com/scl/fi/5kj64c70ruaoxdcfrk4ah/h0h0h0day-2022-blackmail.img?rlkey=nqwu0fde4o9lek69isgn4l3tl&dl=0
+    # it was too large for github
+    - "blackmail.img"
+
+version: "0.1"
+

@@ -1,0 +1,31 @@
+FROM node:19-alpine3.15 as build
+
+ARG REACT_APP_HOSTNAME
+ENV REACT_APP_HOSTNAME $REACT_APP_HOSTNAME
+
+ARG REACT_APP_OIDC_PORT
+ENV REACT_APP_OIDC_PORT $REACT_APP_OIDC_PORT
+
+ARG REACT_APP_FRONT_END_PORT
+ENV REACT_APP_FRONT_END_PORT $REACT_APP_FRONT_END_PORT
+
+ARG REACT_APP_API_PORT
+ENV REACT_APP_API_PORT $REACT_APP_API_PORT
+
+WORKDIR /app
+COPY . .
+RUN npm install
+RUN npm run build
+
+FROM nginx:alpine
+
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+
+WORKDIR /usr/share/nginx/html
+RUN rm -rf ./*
+
+COPY --from=build /app/build .
+
+EXPOSE 80
+
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
